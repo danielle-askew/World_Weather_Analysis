@@ -17,16 +17,16 @@ These different categories of information make it easy for travelers to find exa
 ### Vacation Search
 This folder uses the information gained from the weather database and uses Google Maps API to plot different travel destinations with a hotel options. The image below shows the locations of all the places in the database that have an daily maximum temperature between 75 and 90 degrees farinheit.
 
-![vacation_search_map](https://github.com/Wall-E28/world_weather_analysis/blob/master/vacation_search/weatherpy_vacation_map.png)
+![vacation_search_map](vacation_search/weatherpy_vacation_map.png)
 
 ### Vacation Itinerary
 This folder takes the search information from the search folder and uses Google Maps directions API to create a vacation itinerary. For example, the image below shows a 4 stop itinerary in  that features .
 
-![vacation_itinerary_map](https://github.com/Wall-E28/world_weather_analysis/blob/master/vacation_itinerary/weatherpy_travel_map.png)
+![vacation_itinerary_map](vacation_itinerary/weatherpy_travel_map.png)
 
 Hotels for each loaction.
 
-![vacation_itinerary_markers](https://github.com/Wall-E28/world_weather_analysis/blob/master/vacation_itinerary/weatherpy_travel_map_markers.png)
+![vacation_itinerary_markers](vacation_itinerary/weatherpy_travel_map_markers.png)
 
 ### Additional Information
 As an addon to these three folders, there is a resources folder that has valuable linear regression models looking at the correlation between different weather infromation and latitude. 
